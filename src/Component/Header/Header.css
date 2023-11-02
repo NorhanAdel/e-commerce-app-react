@@ -1,0 +1,47 @@
+.container{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.logo img{
+width: 2.5rem;
+height: 2.5rem;
+}
+.logo span{
+    font-weight: 600;
+    text-transform: lowercase;
+}
+.right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.menue{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+}
+.menue li{
+    cursor: pointer;
+    transition: .3s;
+}
+.menue li:hover{
+    color:#fe556f;
+}
+.right input{
+    width: 7rem;
+    outline: none;
+    border: none;
+    padding: .5rem;
+    border-radius:5px;
+}
+.right i{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+ 
+ 
+ 
+ :root{
+  --black:#343434;
+  --bg:#f8e367;
+  --shadow-1:0 13px 46px -1px rgba(0,0,0,.13);
+  --shadow-2:0 13px 46px -1px rgba(0,0,0,.13);
+  --pink:#fe956f;
+ }
+ *{
+    margin:0;
+    padding:0;
+box-sizing: border-box;
+text-transform: capitalize;
+list-style: none;
+ }
+ 

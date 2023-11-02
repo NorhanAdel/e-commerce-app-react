@@ -1,0 +1,43 @@
+.virtuals{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 2rem 10rem;
+display: flex;
+justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.left>:first-child{
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    width: 20rem;
+}
+.left>:nth-child(2){
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    display: block;
+    width: 17rem;
+    font-weight: 300;
+
+}
+.left>:nth-child(3){
+ 
+    text-transform: capitalize;
+     
+font-size: 1.4rem;
+font-weight: bold;
+}
+.left>img{
+    position: absolute;
+    width: 10rem;
+   bottom: 20%;
+   left: -20px;
+}
+.right .wrapper{
+    width: 30rem;
+}
